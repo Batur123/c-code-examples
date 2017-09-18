@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	
-	double const pi=3.14;
+	double const pi=3.14; //Burdaki const işlem boyunca pi sayısının hiçbir zaman değişmeyeceğini gösterir. Sabit olarak bırakmadır.
 	int yaricap;
 	cout<<"Alan bulmak icin lutfen yaricapi giriniz -> ";
 	cin>>yaricap;
