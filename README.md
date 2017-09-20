@@ -1,5 +1,4 @@
 # My-First-Projects
 My C++ Projects
 
-
-Its for C++ Language. I am computer engineering student. I put my projects on here. They are not for learn 
+The codes written here are in turkish language. If you do not understand the Turkish language, look at the syntax of the code. The code is for my C ++ projects.
