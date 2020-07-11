@@ -12,7 +12,7 @@ int main()
 	
 	durum = (x%2 == 0) ? "cift" : "tek";
 	
-	x==5 ? cout<<"Sayi 5"<<endl:cout<<"Sayi 5 haric herhangi birsey"<<endl; //Bu neden çalıştı aklım almıyor.
+	x==5 ? cout<<"Sayi 5"<<endl:cout<<"Sayi 5 haric herhangi birsey"<<endl; //Bu neden Ã§alÃ½Ã¾tÃ½ aklÃ½m almÃ½yor.
 	
 	cout<<durum<<endl;
 	
