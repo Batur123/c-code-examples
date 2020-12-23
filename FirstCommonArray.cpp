@@ -22,6 +22,28 @@ FindFirstCommon(int inArrayOne[],int inArrayTwo[])
 	return Result;
 }
 
+void FindAllCommon(int inArrayOne[],int inArrayTwo[])
+{
+	
+	int commonarray[] = {};
+		for( int i = 0; i < sizeof(inArrayOne); i++ )
+		{		
+			for(int j = 0; j < sizeof(inArrayTwo); j++ )
+			{	
+				if( inArrayOne[ i ] == inArrayTwo[ j ] )
+				{
+					commonarray[i] = inArrayOne[i];
+				}
+			}
+		}
+		
+		for(int z=0; z<sizeof(commonarray);z++)
+		{
+			cout<<commonarray[z]<<endl;
+		}
+
+}
+
 
 
 
@@ -32,6 +54,7 @@ int main(int argc, char** argv)
 	int array1[] = {1,2,3,4,5};
 	int array2[] = {55,6,7,8,4};
 	cout<<"2 dizi arasýndaki ortak ilk eleman: "<<FindFirstCommon(array1,array2);
+	FindAllCommon(array1,array2);
 	return 0;
 }
  // 15
