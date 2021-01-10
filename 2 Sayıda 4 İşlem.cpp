@@ -1,28 +1,19 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 	setlocale(LC_ALL, "Turkish");
 	int a,b;
-	cout<<"Bu programda girdiðiniz sayýnýn 4 iþlemi alýnacaktýr. Cevap aþaðýya yazýlacaktýr. Eðer 1.sayý 2.sayý dan küçükse bölme iþlemi 0 cevabýný vericektir. Ýþleminizi ona göre yapýnýz."<<endl;
-	cout<<"Lütfen birinci sayýyý giriniz -> ";
+	cout<<"Bu programda girdiÄŸiniz sayÄ±nÄ±n 4 iÅŸlemi alÄ±nacaktÄ±r. Cevap aÅŸaÄŸÄ±ya yazÄ±lacaktÄ±r. EÄŸer 1.sayÄ± 2.sayÄ± dan kÃ¼Ã§Ã¼kse bÃ¶lme iÅŸlemi 0 cevabÄ±nÄ± vericektir. Ä°ÅŸleminizi ona gÃ¶re yapÄ±nÄ±z."<<endl;
+	cout<<"LÃ¼tfen birinci sayÄ±yÄ± giriniz -> ";
 	cin>>a;
-	cout<<"Lütfen ikinci sayýyý giriniz -> ";
+	cout<<"LÃ¼tfen ikinci sayÄ±yÄ± giriniz -> ";
 	cin>>b;
 	
-	cout<<"2 Sayýnýn Toplamý = "<<a+b<<endl;
-	cout<<"2 Sayýnýn Farký = "<<a-b<<endl;
-	cout<<"2 Sayýnýn Çarpýmý = "<<a*b<<endl;
-	cout<<"2 Sayýnýn Bölümü = "<<a/b<<endl;
-	
-	cout<<"Program Batuhan Özkoç tarafýndan yazýlmýþtýr. Kullandýðýnýz için teþekkürler :)";
-	
-	
-	
-	
-	
-	
-	
-	
+	cout<<"2 SayÄ±nÄ±n ToplamÄ± = "<<a+b<<endl;
+	cout<<"2 SayÄ±nÄ±n FarkÄ± = "<<a-b<<endl;
+	cout<<"2 SayÄ±nÄ±n Ã‡arpÄ±mÄ± = "<<a*b<<endl;
+	cout<<"2 SayÄ±nÄ±n BÃ¶lÃ¼mÃ¼ = "<<a/b<<endl;	
 	return 0;
 }
