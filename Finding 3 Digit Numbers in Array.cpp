@@ -78,13 +78,13 @@ int Test(int array[], int arraySize, int Option, int Temp)
 		{
 			for(int i=0;i<=arraySize;i++)
 			{
-				if((array[i] < 1000 && array[i] > 99) || (array[i] > -1000 && array[i] < -99))
+				if((array[i]/100 > 1 && array[i]/100 < 10) || (array[i]/100 > -10 && array[i]/100 < -1))
 				{
+					cout<<array[i]/100<<endl;
 					Temp++;
 				}
 			}	
 			return Temp;
-			break;
 			break;
 		}
 		default:
@@ -103,7 +103,7 @@ int main()
 	git:
 	int Choice;
 	int Ans = 0;
-	int arr[6] = {12,333,261,-231,44,88};
+	int arr[8] = {12,333,261,-231,44,88,99,101};
 	
 	cout<<"Press 1,2 or 3 for Algorithms."<<endl;
  	cout<<"Your choice: ";
